@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "microBoSL Board"
-Date "2021-06-24"
-Rev "0.2.2"
+Date "2021-06-25"
+Rev "0.2.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -72,7 +72,7 @@ F 3 "" H 8275 3900 50  0000 C CNN
 	1    8275 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 3750 3925 2    60   Input ~ 0
+Text GLabel 3775 3600 2    60   Input ~ 0
 V_3.3
 Text GLabel 1700 7050 0    60   Input ~ 0
 TLL_TX
@@ -93,12 +93,12 @@ SDA
 $Comp
 L power:GND #PWR013
 U 1 1 5CEFF41F
-P 3475 4225
-F 0 "#PWR013" H 3475 3975 50  0001 C CNN
-F 1 "GND" H 3475 4075 50  0000 C CNN
-F 2 "" H 3475 4225 50  0000 C CNN
-F 3 "" H 3475 4225 50  0000 C CNN
-	1    3475 4225
+P 3500 3900
+F 0 "#PWR013" H 3500 3650 50  0001 C CNN
+F 1 "GND" H 3500 3750 50  0000 C CNN
+F 2 "" H 3500 3900 50  0000 C CNN
+F 3 "" H 3500 3900 50  0000 C CNN
+	1    3500 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -241,7 +241,7 @@ Text GLabel 14925 1375 2    60   Input ~ 0
 AND_RX
 Text Notes 475  2525 0    60   ~ 0
 3.3V Voltage Regulation\n
-Text Notes 525  5375 0    60   ~ 0
+Text Notes 550  5700 0    60   ~ 0
 Peripheral Connectivity
 Text GLabel 13325 1075 1    60   Input ~ 0
 TTL_3.3V
@@ -569,38 +569,8 @@ F 3 "~" H 1900 7350 50  0001 C CNN
 	1    1900 7350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1125 4425 1175 4425
-$Comp
-L power:GND #PWR03
-U 1 1 5FD837FD
-P 1625 4825
-F 0 "#PWR03" H 1625 4575 50  0001 C CNN
-F 1 "GND" H 1630 4652 50  0000 C CNN
-F 2 "" H 1625 4825 50  0001 C CNN
-F 3 "" H 1625 4825 50  0001 C CNN
-	1    1625 4825
-	1    0    0    -1  
-$EndComp
-Text GLabel 1125 3475 0    60   Input ~ 0
+Text GLabel 975  3150 0    60   Input ~ 0
 USB_V
-Wire Wire Line
-	2025 4425 2125 4425
-Wire Wire Line
-	2025 3475 2125 3475
-Wire Wire Line
-	1125 3475 1175 3475
-$Comp
-L power:GND #PWR02
-U 1 1 5FD9A05F
-P 1625 3875
-F 0 "#PWR02" H 1625 3625 50  0001 C CNN
-F 1 "GND" H 1750 3750 50  0000 C CNN
-F 2 "" H 1625 3875 50  0001 C CNN
-F 3 "" H 1625 3875 50  0001 C CNN
-	1    1625 3875
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:Crystal_GND24 Y1
 U 1 1 5FDFDAE8
@@ -823,7 +793,7 @@ $EndComp
 Text GLabel 14450 4575 3    60   Input ~ 0
 USB_V
 Wire Notes Line
-	500  5250 4550 5250
+	525  5575 4575 5575
 Wire Notes Line
 	8050 1800 8050 500 
 Wire Notes Line
@@ -835,16 +805,16 @@ Wire Notes Line
 $Comp
 L Device:C C1
 U 1 1 60874B04
-P 3475 4075
-F 0 "C1" H 3500 4175 50  0000 L CNN
-F 1 "2.2 μF" H 3500 3975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3513 3925 50  0001 C CNN
-F 3 "https://au.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 3475 4075 50  0001 C CNN
-F 4 "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A225KAFNNNE?qs=sGAEpiMZZMuMW9TJLBQkXpDxzuCsSowO2NtmGkulgUw=" H 3475 4075 50  0001 C CNN "Supplier"
-	1    3475 4075
+P 3500 3750
+F 0 "C1" H 3525 3850 50  0000 L CNN
+F 1 "2.2 μF" H 3525 3650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 3600 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 3500 3750 50  0001 C CNN
+F 4 "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A225KAFNNNE?qs=sGAEpiMZZMuMW9TJLBQkXpDxzuCsSowO2NtmGkulgUw=" H 3500 3750 50  0001 C CNN "Supplier"
+	1    3500 3750
 	1    0    0    -1  
 $EndComp
-Connection ~ 3475 3925
+Connection ~ 3500 3600
 $Comp
 L Driver_Motor:ZXBM5210-S U4
 U 1 1 6087B1DA
@@ -994,7 +964,7 @@ F 3 "" H 12275 3075 50  0001 C CNN
 	1    12275 3075
 	1    0    0    -1  
 $EndComp
-Text GLabel 1125 4425 0    60   Input ~ 0
+Text GLabel 975  4100 0    60   Input ~ 0
 VBAT
 $Comp
 L Device:R R5
@@ -1225,7 +1195,7 @@ Wire Wire Line
 NoConn ~ 13850 4175
 NoConn ~ 14050 4575
 Wire Wire Line
-	3475 3925 3750 3925
+	3500 3600 3775 3600
 Text GLabel 3300 5975 0    60   Input ~ 0
 MOSI
 Text GLabel 3300 5875 0    60   Input ~ 0
@@ -1598,72 +1568,36 @@ Hall_P2
 $Comp
 L power:GND #PWR0103
 U 1 1 60D5075B
-P 2825 4325
-F 0 "#PWR0103" H 2825 4075 50  0001 C CNN
-F 1 "GND" H 2950 4200 50  0000 C CNN
-F 2 "" H 2825 4325 50  0001 C CNN
-F 3 "" H 2825 4325 50  0001 C CNN
-	1    2825 4325
+P 2850 4000
+F 0 "#PWR0103" H 2850 3750 50  0001 C CNN
+F 1 "GND" H 2975 3875 50  0000 C CNN
+F 2 "" H 2850 4000 50  0001 C CNN
+F 3 "" H 2850 4000 50  0001 C CNN
+	1    2850 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L microBoSL-rescue:TPS709A33DBVT U10
 U 1 1 60D50766
-P 2825 4025
-F 0 "U10" H 2575 4375 60  0000 C CNN
-F 1 "TPS709A33DBVT" H 2875 4275 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2975 3975 60  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tps709.pdf?ts=1619152264234&ref_url=https%253A%252F%252Fau.mouser.com%252F" H 2975 3975 60  0001 C CNN
-F 4 "https://au.mouser.com/ProductDetail/Texas-Instruments/TPS709A33DBVT?qs=9yI11AV48ZQgL37ZcAbPUA==" H 2825 4025 50  0001 C CNN "Supplier"
-	1    2825 4025
+P 2850 3700
+F 0 "U10" H 2600 4050 60  0000 C CNN
+F 1 "TPS709A33DBVT" H 2900 3950 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3000 3650 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps709.pdf?ts=1619152264234&ref_url=https%253A%252F%252Fau.mouser.com%252F" H 3000 3650 60  0001 C CNN
+F 4 "https://au.mouser.com/ProductDetail/Texas-Instruments/TPS709A33DBVT?qs=9yI11AV48ZQgL37ZcAbPUA==" H 2850 3700 50  0001 C CNN "Supplier"
+	1    2850 3700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2425 4075
+NoConn ~ 2450 3750
 Wire Wire Line
-	3225 3925 3475 3925
+	3250 3600 3500 3600
 Wire Wire Line
-	2125 3475 2125 3925
+	2150 3150 2150 3600
 Wire Wire Line
-	2125 3925 2425 3925
-Connection ~ 2125 3925
-$Comp
-L Analog_Switch:MAX40200ANS U1
-U 1 1 60D5BCF1
-P 1625 3575
-F 0 "U1" H 1625 3942 50  0000 C CNN
-F 1 "MAX40203ANS" H 1625 3851 50  0000 C CNN
-F 2 "Package_BGA:WLP-4_0.73x0.73mm_Layout2x2_P0.35mm_Ball0.22mm_Pad0.2mm_NSMD" H 1625 3975 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 1625 3975 50  0001 C CNN
-	1    1625 3575
-	1    0    0    -1  
-$EndComp
-$Comp
-L Analog_Switch:MAX40200ANS U2
-U 1 1 60D5C188
-P 1625 4525
-F 0 "U2" H 1625 4892 50  0000 C CNN
-F 1 "MAX40203ANS" H 1625 4801 50  0000 C CNN
-F 2 "Package_BGA:WLP-4_0.73x0.73mm_Layout2x2_P0.35mm_Ball0.22mm_Pad0.2mm_NSMD" H 1625 4925 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 1625 4925 50  0001 C CNN
-	1    1625 4525
-	1    0    0    -1  
-$EndComp
+	2150 3600 2450 3600
+Connection ~ 2150 3600
 Wire Wire Line
-	1175 3475 1175 3675
-Wire Wire Line
-	1175 3675 1225 3675
-Connection ~ 1175 3475
-Wire Wire Line
-	1175 3475 1225 3475
-Wire Wire Line
-	1175 4425 1175 4625
-Wire Wire Line
-	1175 4625 1225 4625
-Connection ~ 1175 4425
-Wire Wire Line
-	1175 4425 1225 4425
-Wire Wire Line
-	2125 3925 2125 4425
+	2150 3600 2150 4100
 $Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 609936C2
@@ -1721,4 +1655,85 @@ Text Notes 500  575  0    60   ~ 0
 Battery Switch
 Text Notes 4575 575  0    60   ~ 0
 MCU
+$Comp
+L Device:D D4
+U 1 1 60D5DB85
+P 1725 3150
+F 0 "D4" H 1725 2933 50  0000 C CNN
+F 1 "CUS08F30,H3F" H 1725 3024 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 1725 3150 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/408/CUS08F30_datasheet_en_20140414-1916097.pdf" H 1725 3150 50  0001 C CNN
+F 4 "https://au.mouser.com/ProductDetail/Toshiba/CUS08F30H3F?qs=sGAEpiMZZMtbRapU8LlZD%252BCy%2FVT4IDP8xwNxSitleb9JD5GJ4tdDdA%3D%3D" H 1725 3025 50  0001 C CNN "Supplier"
+	1    1725 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L microBoSL-rescue:DMP2165UW Q2
+U 1 1 60D5E861
+P 1725 4200
+F 0 "Q2" H 1930 4246 50  0000 L CNN
+F 1 "DMP2165UW" H 1930 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1925 4300 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/115/DMP2165UW-1365845.pdf" H 1725 4200 50  0001 C CNN
+F 4 "https://au.mouser.com/ProductDetail/Diodes-Incorporated/DMP2165UW-7?qs=y6ZabgHbY%252ByvCNbAJzQtdQ==" H 1725 4200 50  0001 C CNN "Supplier"
+	1    1725 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	975  4100 1525 4100
+Wire Wire Line
+	1925 4100 2150 4100
+$Comp
+L Device:R R11
+U 1 1 60D6FF18
+P 1400 4525
+F 0 "R11" V 1480 4525 50  0000 C CNN
+F 1 "10 kΩ" V 1300 4525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1330 4525 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 1400 4525 50  0001 C CNN
+F 4 "https://au.mouser.com/ProductDetail/Vishay-Dale/CRCW040210K0FKEDC?qs=/ha2pyFaduiHT66YdUA2uA4sF2ipRtotJ1IZi2VsJbqIToNUmUEwdxElf6FK9FXM" H 1400 4525 50  0001 C CNN "Supplier"
+	1    1400 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 60D70459
+P 1725 4775
+F 0 "R12" H 1795 4821 50  0000 L CNN
+F 1 "4.7 MΩ" H 1400 4725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1655 4775 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 1725 4775 50  0001 C CNN
+F 4 "https://au.mouser.com/ProductDetail/Vishay-Dale/CRCW04024M70FKEDC?qs=/ha2pyFaduiHT66YdUA2uBTzMf/OTznJ3p5fz7SH86RaDbjs2LFbjBRRStKMxFDa" H 1725 4775 50  0001 C CNN "Supplier"
+	1    1725 4775
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 60D8F248
+P 1725 5025
+F 0 "#PWR02" H 1725 4775 50  0001 C CNN
+F 1 "GND" H 1725 4875 50  0000 C CNN
+F 2 "" H 1725 5025 50  0000 C CNN
+F 3 "" H 1725 5025 50  0000 C CNN
+	1    1725 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1725 5025 1725 4925
+Wire Wire Line
+	1725 4400 1725 4525
+Wire Wire Line
+	1550 4525 1725 4525
+Connection ~ 1725 4525
+Wire Wire Line
+	1725 4525 1725 4625
+Wire Wire Line
+	1250 4525 1250 3150
+Wire Wire Line
+	1250 3150 1575 3150
+Wire Wire Line
+	1875 3150 2150 3150
+Wire Wire Line
+	1250 3150 975  3150
+Connection ~ 1250 3150
 $EndSCHEMATC
