@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name SIM7000-rescue)(type Legacy)(uri ${KIPRJMOD}/SIM7000-rescue.lib)(options "")(descr ""))
-  (lib (name microBoSL-rescue)(type Legacy)(uri ${KIPRJMOD}/microBoSL-rescue.lib)(options "")(descr ""))
+  (lib (name "SIM7000-rescue")(type "Legacy")(uri "${KIPRJMOD}/SIM7000-rescue.lib")(options "")(descr ""))
+  (lib (name "microBoSL-rescue")(type "Legacy")(uri "${KIPRJMOD}/microBoSL-rescue.lib")(options "")(descr ""))
+  (lib (name "mcp7940n-xsn-timer")(type "KiCad")(uri "${KIPRJMOD}/mcp7940n-xsn-timer.kicad_sym")(options "")(descr ""))
 )
