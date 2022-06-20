@@ -1,0 +1,25 @@
+### Module positions - created on Mon Jun 20 11:50:21 2022 ###
+### Printed by Pcbnew version (6.0.4)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val             Package                                              PosX       PosY       Rot  Side
+C1        2.2_μF         C_0805_2012Metric                               -112.2100  -109.0400  180.0000  bottom
+C4        100_nF          C_0402_1005Metric                               -130.2100  -108.6400    0.0000  bottom
+C6        100_nF          C_0402_1005Metric                               -105.9500  -112.6700    0.0000  bottom
+C7        100_nF          C_0402_1005Metric                               -115.0300  -103.6100    0.0000  bottom
+C16       100_nF          C_0402_1005Metric                               -126.1000  -113.3000  -90.0000  bottom
+D4        CUS08F30,H3F    D_SOD-323                                       -108.1100  -109.6400  180.0000  bottom
+F1        1A              Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder  -102.7100  -104.8400  180.0000  bottom
+Q1        DMP2165UW       SOT-323_SC-70                                   -108.2100  -107.3400    0.0000  bottom
+Q2        DMP2165UW       SOT-323_SC-70                                   -107.1100  -102.4400   90.0000  bottom
+R1        10_kΩ          R_0402_1005Metric                               -115.0100  -105.1400  180.0000  bottom
+R2        10_kΩ          R_0402_1005Metric                               -105.3600  -109.2400  -90.0000  bottom
+R3        10_kΩ          R_0402_1005Metric                               -107.0100  -104.8400  180.0000  bottom
+R4        4.7_MΩ         C_0402_1005Metric                               -105.3500  -107.0600  -90.0000  bottom
+R5        10_kΩ          R_0402_1005Metric                               -105.9500  -111.5200    0.0000  bottom
+R11       4.7_MΩ         C_0402_1005Metric                               -128.5000  -113.3000   90.0000  bottom
+R12       4.7_MΩ         C_0402_1005Metric                               -127.3000  -113.3000  -90.0000  bottom
+U1        TPS709A33DBVT   SOT-23-5                                        -112.2100  -105.8400   90.0000  bottom
+U2        ZXBM5210-S      SOIC-8_3.9x4.9mm_P1.27mm                        -130.1750  -103.9400  -90.0000  bottom
+U6        74HC126PW-Q100  TSSOP-14_4.4x5mm_P0.65mm                        -120.0100  -107.3400  180.0000  bottom
+## End

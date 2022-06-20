@@ -1,0 +1,51 @@
+### Module positions - created on Mon Jun 20 11:50:21 2022 ###
+### Printed by Pcbnew version (6.0.4)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val            Package                                               PosX       PosY       Rot  Side
+AE1       Antenna        PinHeader_1x01_P2.54mm_Vertical                   150.3400  -103.6050   90.0000  top
+C2        22_pF          C_0402_1005Metric                                 130.1000  -112.7000   90.0000  top
+C3        22_pF          C_0402_1005Metric                                 124.8000  -112.7000  -90.0000  top
+C5        100_nF         C_0402_1005Metric                                 122.3100  -107.8900  -90.0000  top
+C8        100_pF         C_0402_1005Metric                                 137.5850  -101.2900    0.0000  top
+C9        100_nF         C_0402_1005Metric                                 137.5900  -102.3300    0.0000  top
+C10       5.1_pF         C_0402_1005Metric                                 140.3550  -107.9500  -90.0000  top
+C11       6.8_pF         C_0402_1005Metric                                 139.8300  -104.5750  180.0000  top
+C12       5.1_pF         C_0402_1005Metric                                 140.8300  -105.5500  180.0000  top
+C13       12_pF          C_0402_1005Metric                                 142.2000  -103.1050   90.0000  top
+C14       18_pF          C_0402_1005Metric                                 145.1000  -103.1150   90.0000  top
+C15       9.1_pF         C_0402_1005Metric                                 148.0100  -103.1250   90.0000  top
+C17       15_pF          C_0402_1005Metric                                 122.3100  -110.3900   90.0000  top
+C18       15_pF          C_0402_1005Metric                                 118.5100  -110.3900   90.0000  top
+D1        LED            LED_0603_1608Metric                               115.0250  -109.8400  -90.0000  top
+D2        LED            LED_0603_1608Metric                               112.8100  -109.8400  -90.0000  top
+D3        LED            LED_0603_1608Metric                               117.0400  -105.5700   90.0000  top
+J1        Conn_01x04     PinHeader_1x04_P2.54mm_Vertical                   112.9800  -113.3900   90.0000  top
+J2        Conn_01x03     PinHeader_1x03_P2.54mm_Vertical                   145.0000  -108.2750    0.0000  top
+J3        Conn_01x04     PinHeader_1x04_P1.27mm_Vertical                   119.9550  -101.6500  -90.0000  top
+J4        Conn_01x04     PinHeader_1x04_P2.54mm_Vertical                   140.9200  -113.3900  -90.0000  top
+J5        Conn_01x02     PinHeader_1x02_P2.54mm_Vertical                   104.4400  -101.9000  -90.0000  top
+J6        Conn_01x03     PinHeader_1x03_P2.54mm_Vertical                   147.7000  -108.2750    0.0000  top
+J7        Conn_01x03     PinHeader_1x03_P2.54mm_Vertical                   150.4000  -108.2750    0.0000  top
+J8        USB_B_Micro    USB_Micro-B_Molex-105133-0001                     102.2250  -110.4000  -90.0000  top
+J9        MOTOR_OUT      PinHeader_1x02_P2.54mm_Vertical                   125.4850  -101.8400  -90.0000  top
+L1        220_nH         L_0402_1005Metric                                 139.3800  -103.1500  -90.0000  top
+L2        68_nH          L_0402_1005Metric                                 139.3800  -106.0250   90.0000  top
+L3        24_nH          L_0402_1005Metric                                 141.7300  -104.5500    0.0000  top
+L4        27_nH          L_0402_1005Metric                                 140.8300  -106.5250    0.0000  top
+L5        12_nH          L_0402_1005Metric                                 143.6500  -103.5550    0.0000  top
+L6        12_nH          L_0402_1005Metric                                 146.5600  -103.5650    0.0000  top
+R6        3.3_kΩ        R_0402_1005Metric                                 114.5250  -107.7400  180.0000  top
+R7        3.3_kΩ        R_0402_1005Metric                                 112.3100  -107.7400  180.0000  top
+R8        3.3_kΩ        R_0402_1005Metric                                 117.0400  -108.1100  -90.0000  top
+R9        10_kΩ         R_0402_1005Metric                                 123.5000  -104.4000  -90.0000  top
+R10       10_kΩ         R_0402_1005Metric                                 122.3100  -104.4000   90.0000  top
+SW2       EG1215AA       EG1215AA                                          110.7100  -102.7400  180.0000  top
+U3        MCP7940N-xMNY  DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm              120.1100  -106.8700   90.0000  top
+U4        ATmega328-MMH  QFN-28-1EP_4x4mm_P0.45mm_EP2.4x2.4mm              127.0100  -107.2400   90.0000  top
+U7        FT232RQ        QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm               108.0100  -110.5400  -90.0000  top
+U8        Si4463         QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias   135.9850  -105.4900  180.0000  top
+Y1        8MHz           Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm          127.4500  -112.7500  180.0000  top
+Y2        _32.768_kHz    Crystal_SMD_2012-2Pin_2.0x1.2mm                   120.4100  -110.3900    0.0000  top
+Y3        30_MHz         Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm          135.5600  -109.8400  180.0000  top
+## End
